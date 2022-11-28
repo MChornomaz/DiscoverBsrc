@@ -1,0 +1,14 @@
+.footer {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2.8rem;
+    text-align: center;
+    color: var(--color-main-text);
+    margin-top: 6.5rem;
+    margin-bottom: 7rem;
+
+    @media only screen and (max-width: 900px) {
+        margin-top: 3.5rem;
+        margin-bottom: 6rem;
+    }
+}

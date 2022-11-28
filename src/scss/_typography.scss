@@ -1,0 +1,68 @@
+.paragraph {
+    font-size: 1.8rem;
+    line-height: 156%;
+    color: var(--color-main-text);
+
+    @media only screen and (max-width: 600px) {
+        font-size: calc(1vw * 6);
+        line-height: 136%;
+    }
+}
+
+.heading-2 {
+    font-family: 'OpenSansHebrew';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 5.4rem;
+    margin-bottom: 2.4rem;
+    color: var(--color-headings);
+
+    @media only screen and (max-width: 600px) {
+        font-size: calc(1vw * 9);
+        line-height: 136%;
+    }
+}
+
+.heading-3 {
+    font-family: 'OpenSansHebrew';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+
+    @media only screen and (max-width: 600px) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .shown {
+        display: block;
+    }
+}
+
+.heading-3--colored {
+    color: var(--color-headings);
+}
+
+.heading-3--white {
+    color: var(--color-white);
+}
+
+.paragraph--adaptive {
+    font-size: calc(1.25vw);
+
+    @media only screen and (max-width: 900px) {
+        font-size: 1.8rem;
+    }
+
+    @media only screen and (max-width: 600px) {
+        font-size: calc(1vw * 6);
+        line-height: 136%;
+    }
+
+    @media only screen and (min-width: 1800px) {
+        font-size: 2.2rem;
+    }
+}
